@@ -6,7 +6,7 @@
 
 __Question 1 (30%):__ You are working as a research assistant at a think tank that works on global public health.  The senior researcher you work for tries to follow the Public Health Roundup from [the WHO Bulletin](https://www.who.int/publications/journals/bulletin), but they have been too busy lately to keep up with it.. They ask you to read in the January 2023 report (from the text file included in the repo, also available [here](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9795377/) and parse it using natural language processing:
 
-Describe the sentiment of the article, and show which countries are discussed in the article.
+Describe the sentiment of the article, and show which countries are discussed in the article. For at least one of the countries, plot a dependency parse to depict what was said about that country.
 
 Output to save to your repo for this question:
   * question1.R file with the code - summary statistics can be displayed with print or View
@@ -16,7 +16,7 @@ __Question 2 (70%):__ Your senior researcher is very happy with the results you 
 
 Do not use the text file from question 1, but do reuse as much code as you can from question 1 (i.e. copy and paste any relevant code from question 1 and then change it to generalize).  Keep in mind that your code for question 2 needs to potentially be able to generalize to more than the volumes/years specified, so good generalization is crucial.  Note that any slight variation in results from the text file in question 1 and the parsed html content for question 2 is acceptable, due to differences in the web formatting.
 
-Now, depict how the overall sentiment and countries discussed in the Public Health Roundup changes.
+Now, depict how the overall sentiment and countries discussed in the Public Health Roundup changes. Characterize how the overall sentiment, or the sentiment related to a particular topic, changed over time. For at least one of the countries that shows up in more than one report, plot a dependency parse to depict what was said about that country in different reports.
 
 Output to save to your repo for this question:
   * question2.R file with the code - summary statistics can be displayed with print or View
